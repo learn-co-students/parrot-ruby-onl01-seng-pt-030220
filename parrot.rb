@@ -3,19 +3,16 @@
 
 # This function contains a default argument, with the option to accept other arguments
 
+
+
 def parrot(test1="Squawk!")
   
   
-  puts  "#{test1}"
-  "Squawk!"
+  if test1 != "Squawk"
+      puts  "#{test1}"
+  end
   
-end
-
-def parrot(test2)
-  
-  
-  puts  "#{test2}"
-  
+  return "#{test1}"
   
 end
 
