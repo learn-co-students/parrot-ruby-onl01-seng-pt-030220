@@ -3,9 +3,21 @@
 
 # This function contains a default argument, with the option to accept other arguments
 
-def parrot(word = "Squawk!")
-  puts "#{word}"
+def parrot(test1="Squawk!")
+  
+  
+  puts  "#{test1}"
+  "Squawk!"
+  
 end
 
-#line to execute code
+def parrot(test2)
+  
+  
+  puts  "#{test2}"
+  
+  
+end
+
+
 parrot
