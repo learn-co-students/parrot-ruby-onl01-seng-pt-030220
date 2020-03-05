@@ -1,5 +1,8 @@
 # Parrot
-
+def parrot(string="Squawk!")
+  puts "#{string}"
+  "#{string}"
+end
 ## Objectives
 
 1.  Define a method that accepts arguments.
