@@ -2,7 +2,3 @@
 # returns the phrase
 
 
-def parrot(p="Squawk!")
-  puts p
-  return p
-end
